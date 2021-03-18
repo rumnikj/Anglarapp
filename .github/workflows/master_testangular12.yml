@@ -32,5 +32,5 @@ jobs:
       with:
         app-name: 'testangular12'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_82b10f2851e74efda26f73eafbbf4f37 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4ce86eb3e98a4cf6bde06c7f5d2286d6 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
